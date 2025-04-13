@@ -38,7 +38,7 @@ I'm a cybersecurity enthusiast with a strong foundation in network security, dig
 
 ## 📫 Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/mihirajmera)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/mihirajmera-)  
 
 
 ---
