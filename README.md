@@ -1,4 +1,4 @@
-[github-README.md](https://github.com/user-attachments/files/25885770/github-README.md)
+
 <div align="center">
 
 # Mihir Ajmera
