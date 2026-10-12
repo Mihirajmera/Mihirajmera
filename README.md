@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=210&section=header&text=Mihir%20Ajmera&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=GRC%20Engineer%20%E2%80%A2%20Compliance-as-Code%20%E2%80%A2%20AI%20Governance%20%E2%80%A2%20Cloud%20Security&descAlignY=58&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=210&section=header&text=Mihir%20Ajmera&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20%26%20AI%20Compliance%20%E2%80%A2%20Compliance-as-Code%20%E2%80%A2%20Cloud%20Security&descAlignY=58&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1100&color=0891B2&center=true&vCenter=true&width=760&lines=I+turn+audit+checklists+into+code+that+runs+every+night.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG;NIST+CSF+%E2%80%A2+800-53+%E2%80%A2+AI+RMF+%E2%80%A2+ISO+27001+%E2%80%A2+SOC+2+%E2%80%A2+SOX;Python+%E2%80%A2+Terraform+%E2%80%A2+AWS+%E2%80%A2+GitHub+Actions+%E2%80%A2+OSCAL" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1100&color=0891B2&center=true&vCenter=true&width=760&lines=I+turn+audit+checklists+into+code+that+runs+every+night.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG+GRC+Analyst;AI+GRC+%E2%80%A2+AI+Governance+%E2%80%A2+AI+Compliance+%E2%80%A2+NIST+AI+RMF;NIST+CSF+%E2%80%A2+800-53+%E2%80%A2+AI+RMF+%E2%80%A2+ISO+27001+%E2%80%A2+SOC+2+%E2%80%A2+SOX;Python+%E2%80%A2+Terraform+%E2%80%A2+AWS+%E2%80%A2+GitHub+Actions+%E2%80%A2+OSCAL" alt="Typing intro"/>
 </p>
 
 <p align="center">
@@ -15,18 +15,20 @@
 
 ---
 
-### 👋 Hi, I'm Mihir
+### 👋 Hi, I'm Mihir Ajmera, GRC Engineer &amp; AI GRC practitioner
 
-I'm a **GRC Engineer** who sits between the auditors and the engineers. I've spent **3+ years** in technology risk and compliance (first at **KPMG**, now at **Cisco**), and the thread through all of it is the same: **controls should be tested by code, continuously, and produce evidence an auditor can re-perform**, not screenshots someone grabs once a quarter.
+I'm a **GRC Engineer** at **Cisco** (previously a **GRC Analyst** at **KPMG**) working across **AI governance, AI compliance, cloud security compliance and IT risk**. I sit between the auditors and the engineers. Over **3+ years** in technology risk and compliance, the thread through all of it is the same: **controls should be tested by code, continuously, and produce evidence an auditor can re-perform**, not screenshots someone grabs once a quarter.
 
 ```yaml
 role:        GRC Engineer @ Cisco            # Jun 2025 – present
 previously:  GRC Analyst @ KPMG              # Jan 2022 – Jul 2024
-focus:       [compliance-as-code, continuous controls monitoring, AI governance, cloud security, TPRM]
+focus:       [AI GRC, AI governance, AI risk & compliance, compliance-as-code, continuous controls monitoring, cloud security, TPRM]
 frameworks:  [NIST CSF, NIST 800-53, NIST AI RMF, ISO 27001, SOC 2, PCI DSS, SOX/ITGC, CIS, COBIT]
 education:   MS Cybersecurity, University of Maryland (May 2026)
 location:    Maryland, USA
 ```
+
+**Roles I'm a fit for:** GRC Engineer · GRC Analyst · AI GRC · AI Governance · AI Compliance · AI Risk · Security Compliance · Cloud Compliance · IT Risk &amp; Controls · Third-Party Risk (TPRM)
 
 ---
 
@@ -40,6 +42,17 @@ location:    Maryland, USA
     <td align="center" width="25%"><h2>20%</h2><sub>fewer overdue SOX/ITGC control actions across annual audit cycles</sub></td>
   </tr>
 </table>
+
+---
+
+### 🤖 AI GRC: governance, risk &amp; compliance for AI systems
+
+Most organizations are deploying AI faster than they can govern it. That's the part of GRC I find most interesting, and it's a core part of my current role:
+
+- **AI risk &amp; impact assessments** for internal AI use cases under the **NIST AI Risk Management Framework (AI RMF)**, run in ServiceNow GRC.
+- **Trustworthy-AI review**: each use case is assessed for **security, privacy, accountability, transparency and reliability** risk, with documented remediation.
+- **AI risk tracking**: AI governance risks sit in the same risk register and Power BI reporting as security and compliance risk, so they get owners, treatment plans and deadlines.
+- **Same engineering mindset**: AI controls should be mapped once, tested continuously and produce evidence an auditor can re-perform, just like cloud controls.
 
 ---
 
