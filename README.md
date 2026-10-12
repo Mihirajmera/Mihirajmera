@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1100&color=0891B2&center=true&vCenter=true&width=760&lines=I+turn+audit+checklists+into+code+that+runs+every+night.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG+GRC+Analyst;AI+GRC+%E2%80%A2+AI+Governance+%E2%80%A2+AI+Compliance+%E2%80%A2+NIST+AI+RMF;NIST+CSF+%E2%80%A2+800-53+%E2%80%A2+AI+RMF+%E2%80%A2+ISO+27001+%E2%80%A2+SOC+2+%E2%80%A2+SOX;Python+%E2%80%A2+Terraform+%E2%80%A2+AWS+%E2%80%A2+GitHub+Actions+%E2%80%A2+OSCAL" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1100&color=0891B2&center=true&vCenter=true&width=760&lines=I+turn+audit+checklists+into+tested%2C+repeatable+code.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG+GRC+Analyst;AI+GRC+%E2%80%A2+AI+Governance+%E2%80%A2+AI+Compliance+%E2%80%A2+NIST+AI+RMF;NIST+CSF+%E2%80%A2+800-53+%E2%80%A2+AI+RMF+%E2%80%A2+ISO+27001+%E2%80%A2+SOC+2+%E2%80%A2+SOX;Python+%E2%80%A2+Terraform+%E2%80%A2+AWS+%E2%80%A2+GitHub+Actions+%E2%80%A2+OSCAL" alt="Typing intro"/>
 </p>
 
 <p align="center">
@@ -62,7 +62,7 @@ Most organizations are deploying AI faster than they can govern it. That's the p
 
 | Project | What it does | Why it matters | Stack |
 |---|---|---|---|
-| ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only checks against an AWS account, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS. Writes SHA-256-hashed evidence and exports **OSCAL 1.1.2** assessment results, every night, via keyless GitHub OIDC. | Test once, satisfy four frameworks. Tamper-evident evidence an auditor can re-perform. | Python · boto3 · OSCAL · GitHub Actions |
+| ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only checks against an AWS account, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS. Writes SHA-256-hashed evidence and exports **OSCAL 1.1.2** assessment results. Fully tested against mocked AWS in CI. | Test once, satisfy four frameworks. Tamper-evident evidence an auditor can re-perform. | Python · boto3 · OSCAL · GitHub Actions |
 | [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Pulls access mgmt, change mgmt &amp; config evidence, tests it against SOX ITGC objectives, and auto-generates an audit bundle + **Corrective Action Plan** register. | Automates the slowest part of the SOX audit cycle. | Python · AWS IAM · AWS Config · pytest |
 | [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Joins control status against the **NIST CSF 2.0** catalog and risk-scores each gap (status × maturity × criticality) into a prioritized remediation backlog. | The gap analysis GRC teams do by hand in Archer/ServiceNow, made reproducible. | Python · pytest |
 | [**grc-risk-dashboard**](https://github.com/MihirAjmera/grc-risk-dashboard) | Interactive risk register with KRI/KPI views, remediation aging, and exec-level risk reporting. | Turns a risk spreadsheet into something leadership actually reads. | SQL · SQLite · Streamlit |
