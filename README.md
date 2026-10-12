@@ -54,6 +54,14 @@ Most organizations are deploying AI faster than they can govern it. That's the p
 - **AI risk tracking**: AI governance risks sit in the same risk register and Power BI reporting as security and compliance risk, so they get owners, treatment plans and deadlines.
 - **Same engineering mindset**: AI controls should be mapped once, tested continuously and produce evidence an auditor can re-perform, just like cloud controls.
 
+#### 🔐 Now building: [agent-access-review](https://github.com/MihirAjmera/agent-access-review) &nbsp;<img src="https://img.shields.io/badge/status-ongoing-f59e0b?style=flat-square" alt="Ongoing project"/>
+
+**User access reviews for AI agents.** Companies recertify every human's access each quarter, but AI agents now hold GitHub tokens, database passwords, shell access and mailboxes, and almost nobody reviews them. This tool inventories what each agent and MCP server can read, write, execute and send, tests it against 12 controls, and produces the packet an auditor expects: a reviewer sign-off sheet, hashed evidence and OSCAL results.
+
+- Flags **unowned and unapproved agents**, over-broad scopes, unsandboxed shell access, hardcoded secrets and dormant access, the same way an ITGC access review does for people.
+- Detects **AI exfiltration paths**: one agent that reads sensitive data, ingests attacker-controlled content and can send data out is one prompt injection away from a breach (OWASP LLM01/LLM02).
+- Mapped to **NIST 800-53, SOC 2, NIST AI RMF and the OWASP Top 10 for LLM Applications**.
+
 ---
 
 ### 🚀 Featured work
@@ -62,6 +70,7 @@ Most organizations are deploying AI faster than they can govern it. That's the p
 
 | Project | What it does | Why it matters | Stack |
 |---|---|---|---|
+| 🔐 [**agent-access-review**](https://github.com/MihirAjmera/agent-access-review) *(ongoing)* | Access reviews for AI agents and MCP servers: owner, approval, least privilege, secrets, dormancy and prompt-injection exfiltration paths, with a reviewer sign-off sheet and OSCAL output. | AI agents are the newest non-human identities, and nobody is running access reviews on them yet. | Python · OSCAL · OWASP LLM Top 10 · NIST AI RMF |
 | ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only checks against an AWS account, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS. Writes SHA-256-hashed evidence and exports **OSCAL 1.1.2** assessment results. Fully tested against mocked AWS in CI. | Test once, satisfy four frameworks. Tamper-evident evidence an auditor can re-perform. | Python · boto3 · OSCAL · GitHub Actions |
 | [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Pulls access mgmt, change mgmt &amp; config evidence, tests it against SOX ITGC objectives, and auto-generates an audit bundle + **Corrective Action Plan** register. | Automates the slowest part of the SOX audit cycle. | Python · AWS IAM · AWS Config · pytest |
 | [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Joins control status against the **NIST CSF 2.0** catalog and risk-scores each gap (status × maturity × criticality) into a prioritized remediation backlog. | The gap analysis GRC teams do by hand in Archer/ServiceNow, made reproducible. | Python · pytest |
