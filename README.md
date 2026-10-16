@@ -62,6 +62,15 @@ Most organizations are deploying AI faster than they can govern it. That's the p
 - Detects **AI exfiltration paths**: one agent that reads sensitive data, ingests attacker-controlled content and can send data out is one prompt injection away from a breach (OWASP LLM01/LLM02).
 - Mapped to **NIST 800-53, SOC 2, NIST AI RMF and the OWASP Top 10 for LLM Applications**.
 
+#### 🗡️ Now building: [llm-redteam-evidence](https://github.com/MihirAjmera/llm-redteam-evidence) &nbsp;<img src="https://img.shields.io/badge/status-ongoing-f59e0b?style=flat-square" alt="Ongoing project"/>
+
+**Turns LLM red-team results into audit evidence and a release gate.** Tools like garak and promptfoo find prompt injections, jailbreaks and data leaks, but their output is a security report, not evidence a governance committee or auditor can use. This tool maps every attack to a control with a stated risk tolerance and produces pass/fail with a confidence bound, hashed evidence tied to the raw tool output, and OSCAL results.
+
+- **Risk tolerance per control**: e.g. 0% for system-prompt leakage, 5% for jailbreaks, set by the AI governance committee (NIST AI RMF MAP 1.5).
+- **Statistically honest**: reports a 95% upper bound, because "0 failures in 20 attacks" still means the true rate could be 16%.
+- **Model release gate**: compares a new model version against the approved one and blocks it if it's easier to attack. Change management for AI.
+- Mapped to **OWASP LLM Top 10, MITRE ATLAS, NIST AI 600-1, NIST AI RMF and NIST 800-53**.
+
 ---
 
 ### 🚀 Featured work
@@ -71,6 +80,7 @@ Most organizations are deploying AI faster than they can govern it. That's the p
 | Project | What it does | Why it matters | Stack |
 |---|---|---|---|
 | 🔐 [**agent-access-review**](https://github.com/MihirAjmera/agent-access-review) *(ongoing)* | Access reviews for AI agents and MCP servers: owner, approval, least privilege, secrets, dormancy and prompt-injection exfiltration paths, with a reviewer sign-off sheet and OSCAL output. | AI agents are the newest non-human identities, and nobody is running access reviews on them yet. | Python · OSCAL · OWASP LLM Top 10 · NIST AI RMF |
+| 🗡️ [**llm-redteam-evidence**](https://github.com/MihirAjmera/llm-redteam-evidence) *(ongoing)* | Converts garak and promptfoo red-team results into per-control pass/fail with risk tolerances and confidence bounds, hashed evidence, OSCAL, and a regression gate between model versions. | Red-team tools produce security reports; auditors and AI governance committees need evidence. This is the bridge. | Python · OSCAL · OWASP LLM Top 10 · MITRE ATLAS · NIST AI 600-1 |
 | ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only checks against an AWS account, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS. Writes SHA-256-hashed evidence and exports **OSCAL 1.1.2** assessment results. Fully tested against mocked AWS in CI. | Test once, satisfy four frameworks. Tamper-evident evidence an auditor can re-perform. | Python · boto3 · OSCAL · GitHub Actions |
 | [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Pulls access mgmt, change mgmt &amp; config evidence, tests it against SOX ITGC objectives, and auto-generates an audit bundle + **Corrective Action Plan** register. | Automates the slowest part of the SOX audit cycle. | Python · AWS IAM · AWS Config · pytest |
 | [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Joins control status against the **NIST CSF 2.0** catalog and risk-scores each gap (status × maturity × criticality) into a prioritized remediation backlog. | The gap analysis GRC teams do by hand in Archer/ServiceNow, made reproducible. | Python · pytest |
