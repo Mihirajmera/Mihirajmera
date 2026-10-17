@@ -1,38 +1,63 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=210&section=header&text=Mihir%20Ajmera&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20%26%20AI%20Compliance%20%E2%80%A2%20Compliance-as-Code%20%E2%80%A2%20Cloud%20Security&descAlignY=58&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=170&section=header&text=Mihir%20Ajmera&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20%26%20AI%20Security%20%E2%80%A2%20Compliance-as-Code&descAlignY=56&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1100&color=0891B2&center=true&vCenter=true&width=760&lines=I+turn+audit+checklists+into+tested%2C+repeatable+code.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG+GRC+Analyst;AI+GRC+%E2%80%A2+AI+Governance+%E2%80%A2+AI+Compliance+%E2%80%A2+NIST+AI+RMF;NIST+CSF+%E2%80%A2+800-53+%E2%80%A2+AI+RMF+%E2%80%A2+ISO+27001+%E2%80%A2+SOC+2+%E2%80%A2+SOX;Python+%E2%80%A2+Terraform+%E2%80%A2+AWS+%E2%80%A2+GitHub+Actions+%E2%80%A2+OSCAL" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=0891B2&center=true&vCenter=true&width=720&lines=I+turn+audit+checklists+into+tested%2C+repeatable+code.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG;Building+open-source+tools+for+AI+governance+%26+AI+security." alt="I turn audit checklists into tested, repeatable code. GRC Engineer at Cisco, ex-KPMG. Building open-source tools for AI governance and AI security."/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:ajmeramihir10@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://postura.dev"><img src="https://img.shields.io/badge/Postura-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Postura"/></a>
-  <img src="https://img.shields.io/badge/Open%20to-GRC%20%7C%20Security%20Compliance%20%7C%20AI%20Governance%20roles-16a34a?style=for-the-badge" alt="Open to roles"/>
+  <a href="https://www.posturanet.com"><img src="https://img.shields.io/badge/PosturaNet-111827?style=for-the-badge" alt="PosturaNet"/></a>
+  <img src="https://img.shields.io/badge/Open%20to-GRC%20%7C%20Security%20Compliance%20%7C%20AI%20Governance%20roles-16a34a?style=for-the-badge" alt="Open to GRC, security compliance and AI governance roles"/>
 </p>
 
----
-
-### 👋 Hi, I'm Mihir Ajmera, GRC Engineer &amp; AI GRC practitioner
-
-I'm a **GRC Engineer** at **Cisco** (previously a **GRC Analyst** at **KPMG**) working across **AI governance, AI compliance, cloud security compliance and IT risk**. I sit between the auditors and the engineers. Over **3+ years** in technology risk and compliance, the thread through all of it is the same: **controls should be tested by code, continuously, and produce evidence an auditor can re-perform**, not screenshots someone grabs once a quarter.
-
-```yaml
-role:        GRC Engineer @ Cisco            # Jun 2025 – present
-previously:  GRC Analyst @ KPMG              # Jan 2022 – Jul 2024
-focus:       [AI GRC, AI governance, AI risk & compliance, compliance-as-code, continuous controls monitoring, cloud security, TPRM]
-frameworks:  [NIST CSF, NIST 800-53, NIST AI RMF, ISO 27001, SOC 2, PCI DSS, SOX/ITGC, CIS, COBIT]
-education:   MS Cybersecurity, University of Maryland (May 2026)
-location:    Maryland, USA
-```
+I'm a **GRC Engineer at Cisco** (previously **GRC Analyst at KPMG**) with 3+ years in technology risk and compliance, now focused on **AI governance, AI compliance and AI security**. I sit between auditors and engineers, and I build controls that are **tested by code, continuously, and produce evidence an auditor can re-perform**, not screenshots someone grabs once a quarter.
 
 **Roles I'm a fit for:** GRC Engineer · GRC Analyst · AI GRC · AI Governance · AI Compliance · AI Risk · Security Compliance · Cloud Compliance · IT Risk &amp; Controls · Third-Party Risk (TPRM)
 
 ---
 
-### 📈 Impact at a glance
+### 🚀 Flagship projects: open-source AI GRC tools
+
+#### 🔐 [agent-access-review](https://github.com/MihirAjmera/agent-access-review): user access reviews for AI agents
+
+[![Tests](https://github.com/Mihirajmera/agent-access-review/actions/workflows/tests.yml/badge.svg)](https://github.com/Mihirajmera/agent-access-review/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/Mihirajmera/agent-access-review?color=0891b2)](https://github.com/Mihirajmera/agent-access-review/releases)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Mihirajmera/agent-access-review/badge)](https://scorecard.dev/viewer/?uri=github.com/Mihirajmera/agent-access-review)
+
+Companies recertify every employee's access each quarter, but AI agents now hold GitHub tokens, database passwords, shell access and mailboxes, and almost nobody reviews them. This tool reads MCP configs (Claude Desktop, Cursor, VS Code) and agent manifests, tests each agent against **12 controls**, and produces the packet an auditor expects.
+
+- Flags **unowned agents, stale approvals, over-broad scopes, plaintext secrets and dormant access**, exactly like an ITGC access review.
+- Detects **AI exfiltration paths**: agents that read sensitive data, ingest attacker-controlled content and can send data out (OWASP LLM01/LLM02).
+- Maps to **NIST 800-53, SOC 2, NIST AI RMF, OWASP LLM Top 10**; outputs a sign-off packet, hashed evidence and **OSCAL**.
+
+```bash
+pip install "git+https://github.com/Mihirajmera/agent-access-review@v0.2.0" && agent-access-review demo
+```
+**→ [Read a sample review packet](https://github.com/Mihirajmera/agent-access-review/blob/main/sample-output/access-review.md)** (no install needed)
+
+#### 🗡️ [llm-redteam-evidence](https://github.com/MihirAjmera/llm-redteam-evidence): LLM red-team results → audit evidence + release gate
+
+[![Tests](https://github.com/Mihirajmera/llm-redteam-evidence/actions/workflows/tests.yml/badge.svg)](https://github.com/Mihirajmera/llm-redteam-evidence/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/Mihirajmera/llm-redteam-evidence?color=0891b2)](https://github.com/Mihirajmera/llm-redteam-evidence/releases)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Mihirajmera/llm-redteam-evidence/badge)](https://scorecard.dev/viewer/?uri=github.com/Mihirajmera/llm-redteam-evidence)
+
+Red-team tools like garak and promptfoo tell you a model *can* be jailbroken. A risk committee needs to know whether that's *acceptable*. This tool maps every attack to a control with a documented risk tolerance and turns tool output into evidence.
+
+- **Risk tolerance per control** (e.g. 0% for system-prompt leakage, 5% for jailbreaks) with a **95% confidence bound**, because "0 failures in 20 attacks" still means the true rate could be 16%.
+- **Model release gate**: blocks a new model version that's easier to attack than the approved one. Change management for AI.
+- Maps to **OWASP LLM Top 10, MITRE ATLAS, NIST AI 600-1, NIST AI RMF, NIST 800-53**; outputs hashed evidence and **OSCAL**.
+
+```bash
+pip install "git+https://github.com/Mihirajmera/llm-redteam-evidence@v0.2.0" && redteam-evidence demo
+```
+**→ [Read a sample assessment](https://github.com/Mihirajmera/llm-redteam-evidence/blob/main/sample-output/v2/report.md)** · **[See the v1 → v2 release gate](https://github.com/Mihirajmera/llm-redteam-evidence/blob/main/sample-output/comparison.md)**
+
+---
+
+### 📈 Impact at work
 
 <table>
   <tr>
@@ -45,63 +70,18 @@ location:    Maryland, USA
 
 ---
 
-### 🤖 AI GRC: governance, risk &amp; compliance for AI systems
+### 🧰 More projects
 
-Most organizations are deploying AI faster than they can govern it. That's the part of GRC I find most interesting, and it's a core part of my current role:
+| Project | What it does | Stack |
+|---|---|---|
+| ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only AWS checks, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS, with SHA-256-hashed evidence and **OSCAL** output. Tested against mocked AWS in CI. | Python · boto3 · OSCAL |
+| [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Collects access, change and config evidence, tests it against SOX ITGC objectives, and generates an audit bundle plus a **Corrective Action Plan** register. | Python · AWS IAM · AWS Config |
+| [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Risk-scores control gaps against the **NIST CSF 2.0** catalog into a prioritized remediation backlog. | Python · pytest |
+| [**grc-risk-dashboard**](https://github.com/MihirAjmera/grc-risk-dashboard) | Interactive risk register with KRI/KPI views, remediation aging and exec reporting. | SQL · Streamlit |
+| [**guardduty-siem-automation**](https://github.com/MihirAjmera/guardduty-siem-automation) | GuardDuty detection wired to automated quarantine, with a React findings dashboard. | Terraform · Lambda · React |
+| [**iam-zero-trust-security**](https://github.com/MihirAjmera/iam-zero-trust-security) · [**secure-vpc-architecture**](https://github.com/MihirAjmera/secure-vpc-architecture) | Zero Trust IAM and network baselines as code, with automated compliance monitoring. | Terraform · AWS |
 
-- **AI risk &amp; impact assessments** for internal AI use cases under the **NIST AI Risk Management Framework (AI RMF)**, run in ServiceNow GRC.
-- **Trustworthy-AI review**: each use case is assessed for **security, privacy, accountability, transparency and reliability** risk, with documented remediation.
-- **AI risk tracking**: AI governance risks sit in the same risk register and Power BI reporting as security and compliance risk, so they get owners, treatment plans and deadlines.
-- **Same engineering mindset**: AI controls should be mapped once, tested continuously and produce evidence an auditor can re-perform, just like cloud controls.
-
-#### 🔐 Now building: [agent-access-review](https://github.com/MihirAjmera/agent-access-review) &nbsp;<img src="https://img.shields.io/badge/status-ongoing-f59e0b?style=flat-square" alt="Ongoing project"/>
-
-**User access reviews for AI agents.** Companies recertify every human's access each quarter, but AI agents now hold GitHub tokens, database passwords, shell access and mailboxes, and almost nobody reviews them. This tool inventories what each agent and MCP server can read, write, execute and send, tests it against 12 controls, and produces the packet an auditor expects: a reviewer sign-off sheet, hashed evidence and OSCAL results.
-
-- Flags **unowned and unapproved agents**, over-broad scopes, unsandboxed shell access, hardcoded secrets and dormant access, the same way an ITGC access review does for people.
-- Detects **AI exfiltration paths**: one agent that reads sensitive data, ingests attacker-controlled content and can send data out is one prompt injection away from a breach (OWASP LLM01/LLM02).
-- Mapped to **NIST 800-53, SOC 2, NIST AI RMF and the OWASP Top 10 for LLM Applications**.
-
-#### 🗡️ Now building: [llm-redteam-evidence](https://github.com/MihirAjmera/llm-redteam-evidence) &nbsp;<img src="https://img.shields.io/badge/status-ongoing-f59e0b?style=flat-square" alt="Ongoing project"/>
-
-**Turns LLM red-team results into audit evidence and a release gate.** Tools like garak and promptfoo find prompt injections, jailbreaks and data leaks, but their output is a security report, not evidence a governance committee or auditor can use. This tool maps every attack to a control with a stated risk tolerance and produces pass/fail with a confidence bound, hashed evidence tied to the raw tool output, and OSCAL results.
-
-- **Risk tolerance per control**: e.g. 0% for system-prompt leakage, 5% for jailbreaks, set by the AI governance committee (NIST AI RMF MAP 1.5).
-- **Statistically honest**: reports a 95% upper bound, because "0 failures in 20 attacks" still means the true rate could be 16%.
-- **Model release gate**: compares a new model version against the approved one and blocks it if it's easier to attack. Change management for AI.
-- Mapped to **OWASP LLM Top 10, MITRE ATLAS, NIST AI 600-1, NIST AI RMF and NIST 800-53**.
-
----
-
-### 🚀 Featured work
-
-> Every project below is built the way I'd want it in production: mapped to real framework IDs, tested, and reproducible.
-
-| Project | What it does | Why it matters | Stack |
-|---|---|---|---|
-| 🔐 [**agent-access-review**](https://github.com/MihirAjmera/agent-access-review) *(ongoing)* | Access reviews for AI agents and MCP servers: owner, approval, least privilege, secrets, dormancy and prompt-injection exfiltration paths, with a reviewer sign-off sheet and OSCAL output. | AI agents are the newest non-human identities, and nobody is running access reviews on them yet. | Python · OSCAL · OWASP LLM Top 10 · NIST AI RMF |
-| 🗡️ [**llm-redteam-evidence**](https://github.com/MihirAjmera/llm-redteam-evidence) *(ongoing)* | Converts garak and promptfoo red-team results into per-control pass/fail with risk tolerances and confidence bounds, hashed evidence, OSCAL, and a regression gate between model versions. | Red-team tools produce security reports; auditors and AI governance committees need evidence. This is the bridge. | Python · OSCAL · OWASP LLM Top 10 · MITRE ATLAS · NIST AI 600-1 |
-| ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only checks against an AWS account, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS. Writes SHA-256-hashed evidence and exports **OSCAL 1.1.2** assessment results. Fully tested against mocked AWS in CI. | Test once, satisfy four frameworks. Tamper-evident evidence an auditor can re-perform. | Python · boto3 · OSCAL · GitHub Actions |
-| [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Pulls access mgmt, change mgmt &amp; config evidence, tests it against SOX ITGC objectives, and auto-generates an audit bundle + **Corrective Action Plan** register. | Automates the slowest part of the SOX audit cycle. | Python · AWS IAM · AWS Config · pytest |
-| [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Joins control status against the **NIST CSF 2.0** catalog and risk-scores each gap (status × maturity × criticality) into a prioritized remediation backlog. | The gap analysis GRC teams do by hand in Archer/ServiceNow, made reproducible. | Python · pytest |
-| [**grc-risk-dashboard**](https://github.com/MihirAjmera/grc-risk-dashboard) | Interactive risk register with KRI/KPI views, remediation aging, and exec-level risk reporting. | Turns a risk spreadsheet into something leadership actually reads. | SQL · SQLite · Streamlit |
-| [**guardduty-siem-automation**](https://github.com/MihirAjmera/guardduty-siem-automation) | GuardDuty threat detection wired to automated incident response. | Detection → response without a human in the slow path. | Terraform · AWS GuardDuty |
-| [**iam-zero-trust-security**](https://github.com/MihirAjmera/iam-zero-trust-security) | Zero Trust IAM design with automated compliance monitoring. | Least privilege enforced as code, not policy docs. | Terraform · AWS IAM |
-| [**secure-vpc-architecture**](https://github.com/MihirAjmera/secure-vpc-architecture) | Segmented VPC built on Zero Trust networking principles. | Secure-by-default network baseline. | Terraform · AWS VPC |
-
-#### 🛰️ Postura: autonomous cloud security remediation
-
-My own platform: ingests Security Hub / GuardDuty findings, scores risk against **NIST CSF 2.0** and **MITRE ATT&amp;CK**, generates a Terraform patch, and ships it through CI/CD only after a human approves.
-
-```mermaid
-flowchart LR
-    A[GuardDuty / CloudTrail] --> B[Security Hub]
-    B --> C[Risk scoring<br/>NIST CSF 2.0 · MITRE ATT&CK]
-    C --> D[Terraform patch generator]
-    D --> E{Human approval}
-    E -->|approved| F[GitHub Actions → terraform apply]
-    E -->|rejected| G[Logged & dropped]
-```
+**🛰️ [PosturaNet](https://www.posturanet.com)**: my autonomous AWS security remediation platform. It ingests Security Hub and GuardDuty findings, scores risk against NIST CSF 2.0 and MITRE ATT&amp;CK, generates a Terraform fix, and applies it through CI/CD only after a human approves.
 
 ---
 
@@ -110,10 +90,10 @@ flowchart LR
 ```mermaid
 flowchart LR
     R[Requirement<br/>NIST · ISO · SOC 2] --> M[Map once<br/>control crosswalk]
-    M --> T[Test as code<br/>Python · AWS APIs]
+    M --> T[Test as code<br/>Python · APIs]
     T --> E[Evidence<br/>hashed · timestamped · OSCAL]
-    E --> D[Report<br/>KRIs · Power BI]
-    D --> X[Remediate<br/>Jira · Terraform]
+    E --> D[Report<br/>KRIs · dashboards]
+    D --> X[Remediate<br/>tickets · Terraform]
     X --> T
 ```
 
@@ -125,12 +105,10 @@ flowchart LR
 <summary><b>GRC Engineer · Cisco</b> · Jun 2025 – Present</summary>
 <br/>
 
-- **AI governance:** run AI risk &amp; impact assessments under **NIST AI RMF** in ServiceNow GRC, covering security, privacy, accountability, transparency and reliability.
+- **AI governance:** AI risk &amp; impact assessments under the **NIST AI RMF** in ServiceNow GRC, covering security, privacy, accountability, transparency and reliability, with AI risks tracked in the same register as security risk.
 - **Cloud controls:** assessed **40+** AWS/Azure controls (AWS Config, CloudTrail, Security Hub, IAM) against NIST CSF, CIS &amp; ISO 27001 and drove remediation.
-- **Automation:** built Python evidence collection and control checks for continuous controls monitoring, cutting manual effort by **~30%**.
-- **Policy-as-code:** embedded compliance checks into infrastructure changes with **Terraform + GitHub Actions**.
-- **SOC 2 &amp; TPRM:** evidence, exceptions and remediation for SOC 2; vendor security assessments in **OneTrust**.
-- **Risk reporting:** risk registers in Jira and Power BI dashboards, closing **25+** control gaps and exceptions.
+- **Automation &amp; policy-as-code:** Python evidence collection for continuous controls monitoring (**~30%** less manual effort); compliance checks embedded in **Terraform + GitHub Actions**.
+- **SOC 2, TPRM &amp; reporting:** SOC 2 evidence and exceptions, vendor assessments in **OneTrust**, and risk registers in Jira and Power BI closing **25+** control gaps.
 
 </details>
 
@@ -142,8 +120,7 @@ flowchart LR
 - Tested design &amp; operating effectiveness of **~50 controls per cycle** in **RSA Archer**.
 - Control mapping to NIST CSF, NIST 800-53, COBIT &amp; PCI DSS; ISO 27001 policy reviews.
 - **SOX/ITGC** audit readiness; reduced overdue control actions by **20%**.
-- Identity &amp; vulnerability control reviews with **SailPoint** and **Qualys**.
-- SQL-driven KRI/KPI reporting that cut manual reporting effort by **~15%**.
+- Identity &amp; vulnerability control reviews with **SailPoint** and **Qualys**; SQL-driven KRI/KPI reporting (**~15%** less manual effort).
 
 </details>
 
@@ -153,41 +130,38 @@ flowchart LR
 
 | Domain | Tools &amp; Frameworks |
 |---|---|
-| **Frameworks** | NIST CSF · NIST 800-53 · NIST AI RMF · ISO 27001 · SOC 2 · PCI DSS · SOX/ITGC · CIS Controls · COBIT |
+| **Frameworks** | NIST CSF · NIST 800-53 · NIST AI RMF · NIST AI 600-1 · ISO 27001 · SOC 2 · PCI DSS · SOX/ITGC · CIS · COBIT · OWASP LLM Top 10 · MITRE ATLAS |
 | **GRC Platforms** | ServiceNow GRC · RSA Archer · OneTrust · SailPoint · Qualys · Jira · Confluence |
 | **Cloud Security** | AWS Config · CloudTrail · Security Hub · GuardDuty · IAM · Azure |
 | **Automation** | Python · Terraform · GitHub Actions · Policy-as-Code · OSCAL |
+| **AI Security** | AI risk &amp; impact assessments · MCP / AI agent access review · LLM red-team evidence (garak &amp; promptfoo output) |
 | **Risk Analytics** | SQL · Power BI · Streamlit · KRI/KPI reporting |
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,azure,terraform,py,githubactions,docker,linux,git,ts" alt="Tech icons"/>
-</p>
 
 ---
 
 ### 🎓 Education &amp; Certifications
 
-**MS, Cyber Security**, University of Maryland, Baltimore · *Aug 2024 – May 2026*<br/>
+**MS, Cybersecurity**, University of Maryland, Baltimore County (UMBC) · *Aug 2024 – May 2026*<br/>
 **Bachelor's, Computer Engineering (Honors in Cybersecurity)**, University of Mumbai · *Aug 2020 – May 2024*
 
 <p>
-  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS SAA"/>
-  <img src="https://img.shields.io/badge/CompTIA-Security%2B%20(SY0--701)-C8202F?style=flat-square&logo=comptia&logoColor=white" alt="Security+"/>
-  <img src="https://img.shields.io/badge/ISACA-CMMI%20Certified%20Practitioner-1E3A8A?style=flat-square" alt="ISACA CMMI"/>
-  <img src="https://img.shields.io/badge/Google-Cybersecurity%20Professional-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Cybersecurity"/>
+  <img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square" alt="AWS Solutions Architect Associate"/>
+  <img src="https://img.shields.io/badge/CompTIA-Security%2B%20(SY0--701)-C8202F?style=flat-square&logo=comptia&logoColor=white" alt="CompTIA Security+"/>
+  <img src="https://img.shields.io/badge/ISACA-CMMI%20Certified%20Practitioner-1E3A8A?style=flat-square" alt="ISACA CMMI Certified Practitioner"/>
+  <img src="https://img.shields.io/badge/Google-Cybersecurity%20Professional-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Cybersecurity Professional"/>
 </p>
 
 ---
 
 ### 📫 Let's talk
 
-Hiring for **GRC engineering, security compliance, cloud governance, or AI governance**? I'd like to hear about it. I'm also happy to talk about compliance-as-code, OSCAL, or making SOC 2 less painful.
+Hiring for **GRC engineering, security compliance, cloud governance or AI governance**? I'd like to hear about it. Happy to talk compliance-as-code, OSCAL, AI agent security, or making SOC 2 less painful.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:ajmeramihir10@gmail.com"><img src="https://img.shields.io/badge/ajmeramihir10%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
+  <a href="mailto:ajmeramihir10@gmail.com"><img src="https://img.shields.io/badge/ajmeramihir10%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email ajmeramihir10@gmail.com"/></a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:1e3a8a,100:0f172a&height=110&section=footer" width="100%" alt=""/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:1e3a8a,100:0f172a&height=100&section=footer" width="100%" alt=""/>
 </p>
