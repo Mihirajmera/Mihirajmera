@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=170&section=header&text=Mihir%20Ajmera&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20%26%20AI%20Security%20%E2%80%A2%20Compliance-as-Code&descAlignY=56&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=170&section=header&text=Mihir%20Ajmera&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20and%20AI%20Security%20%E2%80%A2%20Compliance-as-Code&descAlignY=56&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
 </p>
 
 <p align="center">
