@@ -34,7 +34,7 @@ Companies recertify every employee's access each quarter, but AI agents now hold
 - Maps to **NIST 800-53, SOC 2, NIST AI RMF, OWASP LLM Top 10**; outputs a sign-off packet, hashed evidence and **OSCAL**.
 
 ```bash
-pip install "git+https://github.com/Mihirajmera/agent-access-review@v0.2.0" && agent-access-review demo
+pip install agent-access-review && agent-access-review demo
 ```
 **→ [Read a sample review packet](https://github.com/Mihirajmera/agent-access-review/blob/main/sample-output/access-review.md)** (no install needed)
 
@@ -51,7 +51,7 @@ Red-team tools like garak and promptfoo tell you a model *can* be jailbroken. A 
 - Maps to **OWASP LLM Top 10, MITRE ATLAS, NIST AI 600-1, NIST AI RMF, NIST 800-53**; outputs hashed evidence and **OSCAL**.
 
 ```bash
-pip install "git+https://github.com/Mihirajmera/llm-redteam-evidence@v0.2.0" && redteam-evidence demo
+pip install llm-redteam-evidence && redteam-evidence demo
 ```
 **→ [Read a sample assessment](https://github.com/Mihirajmera/llm-redteam-evidence/blob/main/sample-output/v2/report.md)** · **[See the v1 → v2 release gate](https://github.com/Mihirajmera/llm-redteam-evidence/blob/main/sample-output/comparison.md)**
 
