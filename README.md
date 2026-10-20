@@ -3,17 +3,26 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=0891B2&center=true&vCenter=true&width=720&lines=I+turn+audit+checklists+into+tested%2C+repeatable+code.;GRC+Engineer+%40+Cisco+%E2%80%A2+ex-KPMG;Building+open-source+tools+for+AI+governance+%26+AI+security." alt="I turn audit checklists into tested, repeatable code. GRC Engineer at Cisco, ex-KPMG. Building open-source tools for AI governance and AI security."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=0891B2&center=true&vCenter=true&width=720&lines=Compliance+should+compile.;If+it+can%27t+be+re-performed%2C+it+isn%27t+evidence.;Building+the+open-source+tooling+AI+assurance+is+missing." alt="Compliance should compile. If it can't be re-performed, it isn't evidence. Building the open-source tooling AI assurance is missing."/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:ajmeramihir10@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://mihirajmera.github.io/"><img src="https://img.shields.io/badge/Portfolio%20%26%20writing-0891B2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio and writing"/></a>
   <a href="https://www.posturanet.com"><img src="https://img.shields.io/badge/PosturaNet-111827?style=for-the-badge" alt="PosturaNet"/></a>
   <img src="https://img.shields.io/badge/Open%20to-GRC%20%7C%20Security%20Compliance%20%7C%20AI%20Governance%20roles-16a34a?style=for-the-badge" alt="Open to GRC, security compliance and AI governance roles"/>
 </p>
 
-I'm a **GRC Engineer at Cisco** (previously **GRC Analyst at KPMG**) with 3+ years in technology risk and compliance, now focused on **AI governance, AI compliance and AI security**. I sit between auditors and engineers, and I build controls that are **tested by code, continuously, and produce evidence an auditor can re-perform**, not screenshots someone grabs once a quarter.
+I'm a **GRC engineer** working to prove one thing: **AI systems can be governed with the same rigor as financial controls.** Every agent's access reviewed, every model release gated, every claim backed by evidence an auditor can re-perform.
+
+I've spent 3+ years in technology risk and compliance (SOX/ITGC, cloud controls, SOC 2, AI risk assessments), sitting between auditors and engineers. Now I build the open-source tooling AI assurance is missing.
+
+> **Operating principles**
+> - **Compliance should compile.** Controls are code: versioned, tested, and run continuously, not screenshotted once a quarter.
+> - **If it can't be re-performed, it isn't evidence.** Hashed, timestamped, traceable to the raw output, exportable as OSCAL.
+> - **A score is an opinion until someone checks it.** Red-team detectors and scanners are evidence *sources*, not verdicts.
+> - **AI agents are identities.** They hold tokens, shells and databases; review their access like any privileged user's.
 
 **Roles I'm a fit for:** GRC Engineer · GRC Analyst · AI GRC · AI Governance · AI Compliance · AI Risk · Security Compliance · Cloud Compliance · IT Risk &amp; Controls · Third-Party Risk (TPRM)
 
@@ -57,7 +66,7 @@ pip install llm-redteam-evidence && redteam-evidence demo
 
 ---
 
-### 📈 Impact at work
+### 📈 Impact in practice
 
 <table>
   <tr>
@@ -85,6 +94,15 @@ pip install llm-redteam-evidence && redteam-evidence demo
 
 ---
 
+### ✍️ Writing
+
+- **[I red-teamed an LLM. Then I audited the red-team.](https://mihirajmera.github.io/blog/auditing-the-red-team/)** 1,280 attacks against Llama 3.2 3B, and why garak's own detector got 2 of 3 AutoDAN scores wrong.
+- **[What the official MCP READMEs teach you to copy](https://github.com/Mihirajmera/agent-access-review/tree/main/case-studies/official-mcp-readmes)**: 8 of 9 example configs run unpinned packages; combined, they form an exfiltration path.
+
+More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
+
+---
+
 ### 🧭 How I approach GRC
 
 ```mermaid
@@ -99,28 +117,28 @@ flowchart LR
 
 ---
 
-### 💼 Experience
+### 💼 Track record
 
 <details open>
-<summary><b>GRC Engineer · Cisco</b> · Jun 2025 – Present</summary>
+<summary><b>GRC Engineer</b> · Jun 2025 – Present</summary>
 <br/>
 
-- **AI governance:** AI risk &amp; impact assessments under the **NIST AI RMF** in ServiceNow GRC, covering security, privacy, accountability, transparency and reliability, with AI risks tracked in the same register as security risk.
-- **Cloud controls:** assessed **40+** AWS/Azure controls (AWS Config, CloudTrail, Security Hub, IAM) against NIST CSF, CIS &amp; ISO 27001 and drove remediation.
-- **Automation &amp; policy-as-code:** Python evidence collection for continuous controls monitoring (**~30%** less manual effort); compliance checks embedded in **Terraform + GitHub Actions**.
-- **SOC 2, TPRM &amp; reporting:** SOC 2 evidence and exceptions, vendor assessments in **OneTrust**, and risk registers in Jira and Power BI closing **25+** control gaps.
+- **AI governance:** AI risk and impact assessments under the **NIST AI RMF**, covering security, privacy, accountability, transparency and reliability, with AI risks tracked in the same register as security risk.
+- **Cloud controls:** assessed **40+** AWS/Azure controls (AWS Config, CloudTrail, Security Hub, IAM) against NIST CSF, CIS and ISO 27001 and drove remediation.
+- **Automation and policy-as-code:** Python evidence collection for continuous controls monitoring (**~30%** less manual effort); compliance checks embedded in **Terraform + GitHub Actions**.
+- **SOC 2, TPRM and reporting:** SOC 2 evidence and exceptions, vendor risk assessments, and risk registers that closed **25+** control gaps.
 
 </details>
 
 <details>
-<summary><b>GRC Analyst · KPMG</b> · Jan 2022 – Jul 2024</summary>
+<summary><b>GRC Analyst</b> · Jan 2022 – Jul 2024</summary>
 <br/>
 
-- Technology risk assessments in **ServiceNow GRC** across **15+** business applications.
-- Tested design &amp; operating effectiveness of **~50 controls per cycle** in **RSA Archer**.
-- Control mapping to NIST CSF, NIST 800-53, COBIT &amp; PCI DSS; ISO 27001 policy reviews.
+- Technology risk assessments across **15+** business applications.
+- Tested design and operating effectiveness of **~50 controls per cycle**.
+- Control mapping to NIST CSF, NIST 800-53, COBIT and PCI DSS; ISO 27001 policy reviews.
 - **SOX/ITGC** audit readiness; reduced overdue control actions by **20%**.
-- Identity &amp; vulnerability control reviews with **SailPoint** and **Qualys**; SQL-driven KRI/KPI reporting (**~15%** less manual effort).
+- Identity and vulnerability control reviews; SQL-driven KRI/KPI reporting (**~15%** less manual effort).
 
 </details>
 
