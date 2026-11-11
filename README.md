@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=170&section=header&text=Mihir%20Ajmera&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=GRC%20Engineer%20%E2%80%A2%20AI%20GRC%20and%20AI%20Security%20%E2%80%A2%20Compliance-as-Code&descAlignY=56&descSize=17" width="100%" alt="Mihir Ajmera, GRC Engineer"/>
-</p>
+# Mihir Ajmera
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=0891B2&center=true&vCenter=true&width=720&lines=Compliance+should+compile.;If+it+can%27t+be+re-performed%2C+it+isn%27t+evidence.;Building+the+open-source+tooling+AI+assurance+is+missing." alt="Compliance should compile. If it can't be re-performed, it isn't evidence. Building the open-source tooling AI assurance is missing."/>
-</p>
+**GRC engineer · AI GRC and AI security · compliance-as-code.** I ran my access-review tool on the MCP configs in the official server READMEs: [8 of 9 unpinned, 7 of 9 with unreviewed write, send or execute access](https://github.com/Mihirajmera/agent-access-review/tree/main/case-studies/official-mcp-readmes).
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -83,6 +79,8 @@ pip install llm-redteam-evidence && redteam-evidence demo
 
 | Project | What it does | Stack |
 |---|---|---|
+| 🆕 [**agent-flight-recorder**](https://github.com/Mihirajmera/agent-flight-recorder) | A policy check on every MCP tool call and a signed, hash-chained log of what each agent did, exported as OSCAL evidence. | Python · MCP · OSCAL |
+| 🆕 [**ai-gateway-audit**](https://github.com/Mihirajmera/ai-gateway-audit) | Audits a LiteLLM gateway configuration against tier-0 controls, with hashed evidence and OSCAL output. | Python · LiteLLM · OSCAL |
 | ⭐ [**aws-compliance-as-code**](https://github.com/MihirAjmera/aws-compliance-as-code) | Read-only AWS checks, each mapped **once** to NIST 800-53, SOC 2, ISO 27001 &amp; CIS, with SHA-256-hashed evidence and **OSCAL** output. Tested against mocked AWS in CI. | Python · boto3 · OSCAL |
 | [**itgc-evidence-automation**](https://github.com/MihirAjmera/itgc-evidence-automation) | Collects access, change and config evidence, tests it against SOX ITGC objectives, and generates an audit bundle plus a **Corrective Action Plan** register. | Python · AWS IAM · AWS Config |
 | [**control-gap-analyzer**](https://github.com/MihirAjmera/control-gap-analyzer) | Risk-scores control gaps against the **NIST CSF 2.0** catalog into a prioritized remediation backlog. | Python · pytest |
@@ -96,8 +94,10 @@ pip install llm-redteam-evidence && redteam-evidence demo
 
 ### ✍️ Writing
 
-- **[I red-teamed an LLM. Then I audited the red-team.](https://mihirajmera.github.io/blog/auditing-the-red-team/)** 1,280 attacks against Llama 3.2 3B, and why garak's own detector got 2 of 3 AutoDAN scores wrong.
-- **[What the official MCP READMEs teach you to copy](https://github.com/Mihirajmera/agent-access-review/tree/main/case-studies/official-mcp-readmes)**: 8 of 9 example configs run unpinned packages; combined, they form an exfiltration path.
+I write about AI agent security and AI governance, read as an auditor. Latest:
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
@@ -180,6 +180,3 @@ Hiring for **GRC engineering, security compliance, cloud governance or AI govern
   <a href="mailto:ajmeramihir10@gmail.com"><img src="https://img.shields.io/badge/ajmeramihir10%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email ajmeramihir10@gmail.com"/></a>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:1e3a8a,100:0f172a&height=100&section=footer" width="100%" alt=""/>
-</p>

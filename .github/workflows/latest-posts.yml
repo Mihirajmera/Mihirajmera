@@ -1,0 +1,24 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    - cron: "17 13 * * *" # daily, after the morning post
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    permissions:
+      contents: write # commits the refreshed list to README.md
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
+        with:
+          feed_list: "https://mihirajmera.github.io/feed.xml"
+          max_post_count: 5
+          template: "- **[$title]($url)** · $date $newline"
+          date_format: "mmm d"
+          commit_message: "Profile: refresh latest posts"
