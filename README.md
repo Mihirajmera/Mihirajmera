@@ -1,6 +1,6 @@
 # Mihir Ajmera
 
-**GRC engineer · AI GRC and AI security · compliance-as-code.** I ran my access-review tool on the MCP configs in the official server READMEs: [8 of 9 unpinned, 7 of 9 with unreviewed write, send or execute access](https://github.com/Mihirajmera/agent-access-review/tree/main/case-studies/official-mcp-readmes).
+**GRC engineer · AI GRC and AI security · compliance-as-code.** I ran my access-review tool over [2,830 MCP configs committed to public GitHub](https://mihirajmera.github.io/case-studies/public-mcp-configs/): 95% of their package servers aren't pinned, 2.8% still run archived servers, and 1 in 26 holds a real-looking secret.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mihirajmera1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -24,6 +24,14 @@ I've spent 3+ years in technology risk and compliance (SOX/ITGC, cloud controls,
 
 ---
 
+### ▶️ Start here: one AI agent, three layers of evidence
+
+[![ai-assurance-demo: one command runs three tools on one agent and merges the evidence into one OSCAL bundle](https://raw.githubusercontent.com/Mihirajmera/ai-assurance-demo/main/docs/demo.gif)](https://github.com/Mihirajmera/ai-assurance-demo)
+
+[**ai-assurance-demo**](https://github.com/Mihirajmera/ai-assurance-demo) runs three of my tools on the same agent: its configuration ([agent-access-review](https://github.com/Mihirajmera/agent-access-review)), its signed runtime log ([multiagent-flight-recorder](https://github.com/Mihirajmera/agent-flight-recorder)) and its model gateway ([ai-gateway-audit](https://github.com/Mihirajmera/ai-gateway-audit)). The merged report catches what no single layer can, such as an owner approving her own agent's action. **[Watch the 60-second walkthrough](https://mihirajmera.github.io/assets/video/ai-assurance-demo.mp4)** · **[Read the combined report](https://github.com/Mihirajmera/ai-assurance-demo/blob/main/sample-output/assurance-report.md)**
+
+---
+
 ### 🚀 Flagship projects: open-source AI GRC tools
 
 #### 🔐 [agent-access-review](https://github.com/MihirAjmera/agent-access-review): user access reviews for AI agents
@@ -32,10 +40,11 @@ I've spent 3+ years in technology risk and compliance (SOX/ITGC, cloud controls,
 [![Release](https://img.shields.io/github/v/release/Mihirajmera/agent-access-review?color=0891b2)](https://github.com/Mihirajmera/agent-access-review/releases)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Mihirajmera/agent-access-review/badge)](https://scorecard.dev/viewer/?uri=github.com/Mihirajmera/agent-access-review)
 
-Companies recertify every employee's access each quarter, but AI agents now hold GitHub tokens, database passwords, shell access and mailboxes, and almost nobody reviews them. This tool reads MCP configs (Claude Desktop, Cursor, VS Code) and agent manifests, tests each agent against **12 controls**, and produces the packet an auditor expects.
+Companies recertify every employee's access each quarter, but AI agents now hold GitHub tokens, database passwords, shell access and mailboxes, and almost nobody reviews them. This tool reads MCP configs (Claude Desktop, Cursor, VS Code) and agent manifests, tests each agent against **14 checks**, and produces the packet an auditor expects.
 
 - Flags **unowned agents, stale approvals, over-broad scopes, plaintext secrets and dormant access**, exactly like an ITGC access review.
 - Detects **AI exfiltration paths**: agents that read sensitive data, ingest attacker-controlled content and can send data out (OWASP LLM01/LLM02).
+- Flags MCP servers that are **archived upstream, pinned to a version with known CVEs, or published as malware** (OSV data, offline).
 - Maps to **NIST 800-53, SOC 2, NIST AI RMF, OWASP LLM Top 10**; outputs a sign-off packet, hashed evidence and **OSCAL**.
 
 ```bash
@@ -96,8 +105,10 @@ pip install llm-redteam-evidence && redteam-evidence demo
 
 I write about AI agent security and AI governance, read as an auditor. Latest:
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- [What 2,830 public MCP configs run with](https://mihirajmera.github.io/case-studies/public-mcp-configs/) (case study)
+- [The approval prompt had nobody to ask](https://mihirajmera.github.io/blog/the-approval-prompt-had-nobody-to-ask/)
+- [The lowest role on the AI gateway was one request from admin](https://mihirajmera.github.io/blog/the-lowest-role-on-the-gateway-was-one-request-from-admin/)
+- [The log said authentication was enabled](https://mihirajmera.github.io/blog/the-log-said-authentication-was-enabled/)
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
