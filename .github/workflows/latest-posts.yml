@@ -19,6 +19,6 @@ jobs:
         with:
           feed_list: "https://mihirajmera.github.io/feed.xml"
           max_post_count: 5
-          template: "- **[$title]($url)** · $date $newline"
+          template: "$newline- **[$title]($url)** · $date"
           date_format: "mmm d"
           commit_message: "Profile: refresh latest posts"
