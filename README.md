@@ -106,12 +106,12 @@ pip install llm-redteam-evidence && redteam-evidence demo
 I write about AI agent security and AI governance, read as an auditor. Latest:
 
 - [What 2,830 public MCP configs run with](https://mihirajmera.github.io/case-studies/public-mcp-configs/) (case study)
-<!-- BLOG-POST-LIST:START -->- **[My release gate blocked the fix](https://mihirajmera.github.io/blog/my-release-gate-blocked-the-fix/)** · Nov 17 
-- **[Write the risk tolerance down before you test. It’s two numbers, not one.](https://mihirajmera.github.io/blog/write-the-tolerance-down-first/)** · Nov 16 
-- **[Supabase’s MCP server says pausing your project isn’t destructive. It’s right, and that’s the problem.](https://mihirajmera.github.io/blog/not-destructive-is-not-least-privilege/)** · Nov 15 
-- **[I went bug hunting in four popular MCP packages. I found their defences instead.](https://mihirajmera.github.io/blog/what-a-hardened-mcp-server-looks-like/)** · Nov 14 
-- **[The config failed least privilege. The log passed it. Both were right.](https://mihirajmera.github.io/blog/the-config-failed-the-log-passed/)** · Nov 13 
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- **[My release gate blocked the fix](https://mihirajmera.github.io/blog/my-release-gate-blocked-the-fix/)** · Nov 17
+- **[Write the risk tolerance down before you test. It’s two numbers, not one.](https://mihirajmera.github.io/blog/write-the-tolerance-down-first/)** · Nov 16
+- **[Supabase’s MCP server says pausing your project isn’t destructive. It’s right, and that’s the problem.](https://mihirajmera.github.io/blog/not-destructive-is-not-least-privilege/)** · Nov 15
+- **[I went bug hunting in four popular MCP packages. I found their defences instead.](https://mihirajmera.github.io/blog/what-a-hardened-mcp-server-looks-like/)** · Nov 14
+- **[The config failed least privilege. The log passed it. Both were right.](https://mihirajmera.github.io/blog/the-config-failed-the-log-passed/)** · Nov 13<!-- BLOG-POST-LIST:END -->
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
