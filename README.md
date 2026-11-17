@@ -106,9 +106,11 @@ pip install llm-redteam-evidence && redteam-evidence demo
 I write about AI agent security and AI governance, read as an auditor. Latest:
 
 - [What 2,830 public MCP configs run with](https://mihirajmera.github.io/case-studies/public-mcp-configs/) (case study)
+<!-- BLOG-POST-LIST:START -->
 - [The approval prompt had nobody to ask](https://mihirajmera.github.io/blog/the-approval-prompt-had-nobody-to-ask/)
 - [The lowest role on the AI gateway was one request from admin](https://mihirajmera.github.io/blog/the-lowest-role-on-the-gateway-was-one-request-from-admin/)
 - [The log said authentication was enabled](https://mihirajmera.github.io/blog/the-log-said-authentication-was-enabled/)
+<!-- BLOG-POST-LIST:END -->
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
