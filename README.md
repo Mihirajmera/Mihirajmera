@@ -107,11 +107,11 @@ I write about AI agent security and AI governance, read as an auditor. Latest:
 
 - [What 2,830 public MCP configs run with](https://mihirajmera.github.io/case-studies/public-mcp-configs/) (case study)
 <!-- BLOG-POST-LIST:START -->
+- **[Your AI agent is a service account. Review it like one, then ask four more questions.](https://mihirajmera.github.io/blog/your-ai-agent-is-a-service-account/)** · Nov 20
 - **[Segregation of duties for AI agents: review the combination, not the permission](https://mihirajmera.github.io/blog/segregation-of-duties-for-ai-agents/)** · Nov 19
 - **[I re-performed my own AI assurance results. Every study had something the output missed.](https://mihirajmera.github.io/blog/re-performance-for-ai-evidence/)** · Nov 18
 - **[My release gate blocked the fix](https://mihirajmera.github.io/blog/my-release-gate-blocked-the-fix/)** · Nov 17
-- **[Write the risk tolerance down before you test. It’s two numbers, not one.](https://mihirajmera.github.io/blog/write-the-tolerance-down-first/)** · Nov 16
-- **[Supabase’s MCP server says pausing your project isn’t destructive. It’s right, and that’s the problem.](https://mihirajmera.github.io/blog/not-destructive-is-not-least-privilege/)** · Nov 15<!-- BLOG-POST-LIST:END -->
+- **[Write the risk tolerance down before you test. It’s two numbers, not one.](https://mihirajmera.github.io/blog/write-the-tolerance-down-first/)** · Nov 16<!-- BLOG-POST-LIST:END -->
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
