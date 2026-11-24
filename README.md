@@ -107,11 +107,11 @@ I write about AI agent security and AI governance, read as an auditor. Latest:
 
 - [What 2,830 public MCP configs run with](https://mihirajmera.github.io/case-studies/public-mcp-configs/) (case study)
 <!-- BLOG-POST-LIST:START -->
+- **[The 30-line diff between a failing and a passing AI gateway](https://mihirajmera.github.io/blog/the-30-line-diff-that-hardens-an-ai-gateway/)** · Nov 23
 - **[What a passing AI agent looks like, line by line](https://mihirajmera.github.io/blog/what-a-passing-ai-agent-looks-like/)** · Nov 22
 - **[Your AI agent is a service account. Review it like one, then ask four more questions.](https://mihirajmera.github.io/blog/your-ai-agent-is-a-service-account/)** · Nov 20
 - **[Segregation of duties for AI agents: review the combination, not the permission](https://mihirajmera.github.io/blog/segregation-of-duties-for-ai-agents/)** · Nov 19
-- **[I re-performed my own AI assurance results. Every study had something the output missed.](https://mihirajmera.github.io/blog/re-performance-for-ai-evidence/)** · Nov 18
-- **[My release gate blocked the fix](https://mihirajmera.github.io/blog/my-release-gate-blocked-the-fix/)** · Nov 17<!-- BLOG-POST-LIST:END -->
+- **[I re-performed my own AI assurance results. Every study had something the output missed.](https://mihirajmera.github.io/blog/re-performance-for-ai-evidence/)** · Nov 18<!-- BLOG-POST-LIST:END -->
 
 More at **[mihirajmera.github.io/blog](https://mihirajmera.github.io/blog/)** · [RSS](https://mihirajmera.github.io/feed.xml)
 
